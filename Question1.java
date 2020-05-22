@@ -21,6 +21,7 @@ public class Question1 {
         st1.Lasttname="Rezvan";
         st1.Academicrank="lisans";
         st1.setage(23);
+        st1.study();
         System.out.println("Student is : "+st1.Firstname+ " Last Name : "+st1.Lasttname+" Academicrank = " + st1.Academicrank+st1.getage());
     }
     
